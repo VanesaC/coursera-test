@@ -1,0 +1,83 @@
+body{
+
+	box-sizing:border-box;
+	margin-left:0;
+	margin-right:0;
+}
+
+
+@media (min-width: 992px){
+	div {
+		width:30%;		
+		margin-bottom:20px;
+		float:left;		
+		height:250px;
+		margin-right:1%;
+		margin-left:1%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	#unu {
+		width:47%;
+		float:left;
+	}
+	#doi {
+		width:47%;
+		float:right;	
+	}
+	#trei{
+		clear:both;
+		margin-top:160px;
+	}
+	div {
+		margin-right:1%;
+		margin-left:1%;
+	}
+}
+
+
+@media (max-width: 767px){
+
+	div {
+
+		width:76%;
+		margin-right:12%;
+		margin-left:12%;
+		margin-bottom:5%;
+	}
+
+}
+
+div {
+	
+	background-color:#ffcc77;
+	border:1px solid black;	
+
+}
+
+h3 {
+	padding-left:10px;
+	padding-right:10px;
+	text-align:justify;
+	padding-top:20px;
+	font-size:15px;
+}
+h2{
+	float:right;
+	border:1px solid black;
+	margin-top:0;
+	margin-right:0;
+	background-color: #403f8a;
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:20px;
+}
+
+h1{
+	color:#800080;
+	text-align:center;
+}
