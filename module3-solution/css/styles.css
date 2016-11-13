@@ -1,0 +1,60 @@
+body{
+background-color:#99ff33;
+font-family: Georgia;
+box-sizing:border-box;
+
+
+
+}
+
+#header-nav{
+background-color: #ccff99;
+border-radius:0;
+border:0;
+
+}
+
+.navbar-brand p{
+	padding:0;
+	font-size:1.5em;
+}
+
+#collapsable-nav {
+
+	clear:both;
+	text-align:center;
+	background-color:#33cc33;	
+
+
+}
+
+#collapsable-nav a:hover{
+text-decoration: none;
+}
+
+#collapsable-nav p{
+color:black;
+
+}
+
+
+
+#container-menu p{
+
+	font-size:2em;
+}
+
+
+#container-menu-text{
+	background-color: #ccff99;
+	height:1000px;
+   
+	margin-left:2%;
+	margin-right:2%;
+	width:96%;
+	padding:25px;
+
+}
+
+
+
