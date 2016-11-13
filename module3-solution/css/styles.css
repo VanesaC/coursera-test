@@ -19,6 +19,11 @@ border:0;
 	font-size:1.5em;
 }
 
+.navbar-brand a:hover{
+
+	text-decoration: none;
+}
+
 #collapsable-nav {
 
 	clear:both;
@@ -28,7 +33,7 @@ border:0;
 
 }
 
-#collapsable-nav a:hover{
+.collapse navbar-collapse a:hover{
 text-decoration: none;
 }
 
